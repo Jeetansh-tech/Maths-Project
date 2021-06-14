@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .topnav{
+            display: flex;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .topnav div{
+            padding: 10px 30px 10px 30px;
+            border: 2px solid black;
+            width: 50%;
+        }
+        #BOX-1{
+            height: 100%;
+            width: 100%;
+        background-image: url(https://www.teahub.io/photos/full/27-271349_background-color-good-red-background-color.jpg);
+        background-size: cover;
+            position: absolute;
+            top: 42px;
+            left: 0px;
+            
+        }
+        #BOX-2{
+            height: 100%;
+            width: 100%;
+            background-image: url(https://cdn.wallpapersafari.com/96/45/sY1G0S.jpg);
+            background-size: cover;
+            position: absolute;
+            top: 42px;
+            left: 0px;
+        }
+        #BOX-3{
+            height: 100%;
+            width: 100%;
+           background-image: url(https://img.wallpapersafari.com/desktop/1440/900/63/92/DGaWRM.jpg);
+           background-size: cover;
+            position: absolute;
+            top: 42px;
+            left: 0px;
+        }
+        #BOX-4{
+            height: 100%;
+            width: 100%;
+            background-image: url(https://miro.medium.com/max/15904/1*opibt_PLUhicWYsyKhBtIQ.jpeg);
+            background-size: cover;
+            position: absolute;
+            top: 42px;
+            left: 0px;
+        }
+        .box1,.box2,.box3,.box4{
+            text-align: center;
+            cursor: pointer;
+            font-family: cursive;
+        }
+        .box1{
+            background-color: red;
+        }
+        .box2{
+        background-color: yellow;
+        }
+        .box3{
+        background-color: cyan;
+        }
+        .box4{
+        background-color: lime;
+        }
+        h1{
+            color: gold;
+            border: 2px solid yellow;
+            border-radius: 5px;
+            text-align: center;
+margin-top: 100px;
+            background: none;
+            font-family: cursive;
+        }
+        h1:hover{
+            color: navy;
+            background-color: whitesmoke;
+            box-shadow: purple 2px 2px 2px 2px;
+        }
+        #btn{
+            background-color: chartreuse;
+            margin-left: 700px;
+            border: none;
+            border-radius: 10px;
+            font-size: 30px;
+            font-family: pristina;
+            text-align: center;
+        }
+        #btn2{
+            background-color: chartreuse;
+            margin-left: 695px;
+            border: none;
+            border-radius: 10px;
+            font-size: 30px;
+            font-family: pristina;
+            text-align: center;
+        }
+        h6{
+            background-color: chartreuse;
+            text-align: center;
+        }
+        table{
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-left: 450px;
+        }
+        #btn12{
+            height: 20px;
+            width: 50px;
+            background-color: chartreuse;
+        }
+            </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<title>Maths-Project</title>
+</head>
+<body>
+    <div class="container">
+        <div class="topnav">
+            <div class="box1" onclick="showbox1()">Facts</div><br>
+            <div class="box2" onclick="showbox2()">Riddles</div><br>
+            <div class="box3" onclick="showbox3()">Puzzles</div><br>
+            <div class="box4"><div class="dropdown">
+                <button
+                  type="button"
+                  class="btn btn-primary dropdown-toggle"
+                  data-toggle="dropdown"
+                >
+                  Dropdown button
+                </button>
+          
+                <div class="dropdown-menu">
+                  <h5 class="dropdown-header">Dropdown Header</h5>
+          
+                  <a href="#" class="dropdown-item">Home</a>
+                  <a href="#" class="dropdown-item">About</a>
+                  <a href="#" class="dropdown-item">Blog</a>
+          
+                  <div class="dropdown-divider"></div>
+                  <a href="#" class="dropdown-item">Log Out </a>
+                </div>
+              </div></div>
+          
+        </div>
+    </div>
+    <br><br>
+    <div class="container"><div id="BOX-1"><h1>1. The word “hundred” comes from the old Norse term, “hundrath”, which actually means 120 and not 100.</h1><br><h1>2. In a room of 23 people there’s a 50% chance that two people have the same birthday.</h1><br><h1>3. Most mathematical symbols weren’t invented until the 16th century. Before that, equations were written in words.</h1><br><h1>4. “Forty” is the only number that is spelt with letters arranged in alphabetical order.</h1><br></div>
+    <div id="BOX-2"><h1><h1>1. Add the number to the number itself and then multiply by 4. Again divide the number by 8 and you will get the same number once more. Which is that number?</h1><br><h1>2. X is an odd number. Take an alphabet away from X and it becomes even. Which is that number?</h1><br><h1>3. Tom was asked to paint the number of plates on 100 apartments which means he will have to paint numbers 1 through 100. Can you figure out the number of times he will have to paint the number 8?</h1><br></h1></div>
+    <div id="BOX-3"><table style="width:100%">
+        <table style="padding: 10px; border: yellow 3px solid;">
+        <tr>
+          <td style="border: 2px solid red;"><img src="Puzzle1.jpg" height="150px" width="150px" style="padding-left: 30px; border-radius: 3px;" alt=""><br><h6>How Many  Sqaure are <br> there ?</h6></td>
+          <td style="border: 2px solid red;"><img src="maths-logical-question.jpg" height="170px" width="200px" alt="" style="padding-left: 20px;border-radius: 3px;"><br><h6>9+5=2(Its true but how ?)</h6></td>
+          <td style="border: 2px solid red;"> <img src="dfdf.png" height="150px" width="180px" alt="" style="padding-left: 10px;border-radius: 3px;"><br><h6>Make a true eqaution with <br> 2,3,4,5,+,=</h6></td>
+        </tr>
+        <tr>
+          <td style="border: 2px solid red;"><img src="sdsd.jpg" height="170px" width="170px" alt="" style="padding-left: 6px;border-radius: 3px;"><br><h6>What should replace "?"</h6></td>
+          <td style="border: 2px solid red;"><img src="mcmc.jpg" height="150px" width="200px" alt="" style="padding-left: 20px;border-radius: 3px;"><br><h6>What is number in the <br> parking slot with car parked ?</h6></td>
+          <td style="border: 2px solid red;"><img src="bcbc.jpg" height="160px" width="170px" alt="" style="padding-left: 28px;border-radius: 3px;"><br><h6>How many times "5" <br> comes in "1-100"</h6></td>
+        </tr>
+        <tr>
+        <td style="border: 2px solid red;"><img src="mko.jpg "  height="150px" width="160px" alt="" style="padding-left: 15px;border-radius: 3px;"><br><h6>Replace all the variables <br> with consonants</h6></td>
+        <td style="border: 2px solid red;"><img src="thb.jpg" height="170px" width="180px" alt="" style="padding-left: 40px;border-radius: 3px;"><br><h6>What shoul replace "?"</h6></td>
+        <td style="border: 2px solid red;"><img src="sdd.png" height="180px" width="170px" alt="" style="padding-left: 25px;border-radius: 3px;"><br><h6>Find the missing numbers</h6></td>
+        </tr>
+      </table></div>
+      <button id="btn12">See answers</button>
+</div>
+    
+
+    <script>
+        function showbox1(){
+            document.getElementById("BOX-1").style.visibility='visible';
+            document.getElementById("BOX-2").style.visibility='hidden';
+            document.getElementById("BOX-3").style.visibility='hidden';
+            document.getElementById("BOX-4").style.visibility='hidden';
+        }
+        function showbox2(){
+            document.getElementById("BOX-1").style.visibility='hidden';
+            document.getElementById("BOX-2").style.visibility='visible';
+            document.getElementById("BOX-3").style.visibility='hidden';
+            document.getElementById("BOX-4").style.visibility='hidden';
+        }
+        function showbox3(){
+            document.getElementById("BOX-1").style.visibility='hidden';
+            document.getElementById("BOX-2").style.visibility='hidden';
+            document.getElementById("BOX-3").style.visibility='visible';
+            document.getElementById("BOX-4").style.visibility='hidden';
+        }
+        alert("WELCOME EVERYONE")
+    </script>
+</body>
+</html>
